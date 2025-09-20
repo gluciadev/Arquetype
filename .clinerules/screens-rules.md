@@ -23,7 +23,9 @@ screens/
     types.ts                  // Tipado asociado a la vista
     <ViewName>.doc.md         // Documentación funcional y técnica
     <ViewName>.module.css     // Estilos con CSS Modules
-    <ViewName>.test.tsx       // Tests unitarios (solo del propio componente)
+    test
+      <ViewName>Mock.ts       // Mocks asociados al testing
+      <ViewName>.test.tsx     // Tests unitarios (solo del propio componente)
     <ViewName>.tsx            // Entrada principal de la vista
 ```
 - **[Documentation Rules](documentation-rules.md)** , ejemplo de documentación minima en cada componente.
@@ -61,7 +63,9 @@ screens/
     types.ts
     Users.doc.md
     Users.module.css
-    Users.test.tsx
+    test/
+      UsersTestMock.ts
+      Users.test.tsx
     Users.tsx
 ```
 

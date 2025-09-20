@@ -13,25 +13,19 @@
 
 ### Technology and Framework Rules
 
+-  **[CSS Rules](css-rules.md)** - Reglas de estilado para todos los componentes/vistas.
 -  **[Jira Rules](jira-standards.md)** - Gestión, seguimiento y trazabilidad de tareas en el proyecto.
 -  **[Github Rules](github-rules.md)** - Estandarizar flujos de ramas, PRs y control de versiones en el proyecto.
 -  **[Testing Rules](testing-rules.md)** - Asegurar cobertura, confiabilidad y mantenibilidad del proyecto.
 -  **[Growthbook Rules](growthbook-rules.md)** - Uso de  Feature Flags para gestión controlada y escalable de funcionalidades.
+-  **[Typescript Rules](typescript-rules.md)** - Normas de tipado que deben aplicarse y seguirse siempre en el proyecto.
 -  **[Documentation Rules](documentation-rules.md)** - Documentación funcional y técnica, detallando hooks, helpers, flags, traducciones y contexto asociado.
-
-  
+ 
 
 ### Principios fundamentales
   
 1.  **[SOLID](solid-rules.md)** - Principios de responsabilidad única y bajo acoplamiento.
 2.  **[KISS](kiss-rules.md)** - Componentes simples, claros y sin complejidad innecesaria.
-
-### Normas de código
-
-1. **[React Standards](react-standards.md)**  - Patrones y reglas generales de codificación.
-2. **[Typescript Standards](typescript-standards.md)** - Tipado interno del proyecto.
-3. **[HTML Standards](html-standards.md)** - Marcado semántico y accesibilidad del proyecto.
-4. **[CSS Standards](css-standards.md)** - Estilos modulares, responsive y mantenibles en el proyecto.
 
 
 ## Rule Maintenance
