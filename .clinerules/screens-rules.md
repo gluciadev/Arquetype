@@ -19,12 +19,12 @@ screens/
     hooks/                    // Lógica con estado extraída de la UI
     locales/                  // Traducciones (ej. es.json, en.json)
     types.ts                  // Tipado asociado a la vista
-    <ViewName>.doc.md         // Documentación funcional y técnica especificada en **[Documentation Rules](documentation-rules.md)**
+    <ViewName>.doc.md         // Documentación funcional y técnica
     <ViewName>.module.css     // Estilos con CSS Modules
     <ViewName>.test.tsx       // Tests unitarios (solo del propio componente)
     <ViewName>.tsx            // Entrada principal de la vista
 ```
-
+- **[Documentation Rules](documentation-rules.md)** , ejemplo de documentación minima en cada componente.
 ---
 
 ## Carpetas opcionales
