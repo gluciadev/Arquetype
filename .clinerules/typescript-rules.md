@@ -34,7 +34,7 @@ export type UserCardProps = {
 ```tsx
 import { UserCardProps } from './types.ts'
 
-export function UserCard({ name, email = "—", onSelect }: UserCardProps) {
+export const UserCard = ({ name, email = "—", onSelect }: UserCardProps) => {
   return (
     <article>
       <h3>{name}</h3>
@@ -52,7 +52,7 @@ export function UserCard({ name, email = "—", onSelect }: UserCardProps) {
 - Si devuelve múltiples valores, usar objetos en lugar de arrays.
 
 ```ts
-function useCounter(initial: number) {
+const useCounter = (initial: number) => {
   const [count, setCount] = useState<number>(initial);
   const increment = () => setCount((number) => number + 1);
   return { count, increment };
@@ -67,7 +67,7 @@ function useCounter(initial: number) {
 - Preferir **tipos utilitarios** de TS (`Partial`, `Pick`, `Omit`, `Record`, etc.) en vez de duplicar.
 
 ```ts
-export function formatDate(date: Date, locale: string): string {
+export const formatDate = (date: Date, locale: string): string => {
   return new Intl.DateTimeFormat(locale).format(date);
 }
 ```
