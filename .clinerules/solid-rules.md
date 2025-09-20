@@ -1,4 +1,4 @@
-# SOLID Bible for Cline Project
+# SOLID rules
 
 Este documento define cómo aplicar los principios **SOLID** en el proyecto, sirviendo como referencia única (biblia) para mantener la arquitectura consistente, modular y escalable.
 
