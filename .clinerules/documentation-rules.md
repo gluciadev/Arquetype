@@ -4,7 +4,7 @@ Este es el template estándar para documentar **cualquier componente o screen** 
 Debe mantenerse consistente en todos los casos para que la información sea clara y fácilmente procesable por humanos e IA.
 Siempre que se toque un componente si ya tiene documentación existente debe ser actualizada.
 
-Metadatas que debe tener toda documentación:
+Metadatos que debe tener toda documentación:
 ```
 ---
 title: <ComponentName>
