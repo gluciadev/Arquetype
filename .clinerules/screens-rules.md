@@ -8,7 +8,7 @@ Cada vista debe estar construida bajo principios **[SOLID](solid-rules.md)** y *
 ---
 
 ## Estructura de una vista
-
+```
 screens/
   <ViewName>/                 // Nombre de la vista
     adapters/                 // Adaptan datos de API al formato de la vista (usar plural siempre)
@@ -23,6 +23,7 @@ screens/
     <ViewName>.module.css     // Estilos con CSS Modules
     <ViewName>.test.tsx       // Tests unitarios (solo del propio componente)
     <ViewName>.tsx            // Entrada principal de la vista
+```
 
 ---
 
@@ -47,7 +48,7 @@ screens/
 ---
 
 ## Ejemplo de vista Users
-
+```
 screens/
   Users/
     components/
@@ -59,6 +60,7 @@ screens/
     Users.module.css
     Users.test.tsx
     Users.tsx
+```
 
 Aquí Users.tsx solo orquesta UsersHeader y UsersBody.  
 Su principio SOLID → “responsable de renderizar la vista”.  
@@ -71,7 +73,7 @@ Cada subcomponente mantiene sus propias reglas internas.
 Caso: un botón definido en UsersHeader también se necesita en UsersBody.
 
 ### Antes
-
+```
 screens/
   Users/
     components/
@@ -79,9 +81,10 @@ screens/
         components/
           ButtonHeader/
       UsersBody/
+```
 
 ### Después
-
+```
 screens/
   Users/
     components/
@@ -89,5 +92,6 @@ screens/
         ButtonUsers/   // Antiguo ButtonHeader elevado a commons
       UsersHeader/
       UsersBody/
+```
 
 ⚠️ En el ejemplo se omiten otras carpetas mínimas para simplificar la explicación.
