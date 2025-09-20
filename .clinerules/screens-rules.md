@@ -13,6 +13,8 @@ screens/
   <ViewName>/                 // Nombre de la vista
     adapters/                 // Adaptan datos de API al formato de la vista (usar plural siempre)
     components/               // Subcomponentes que conforman la vista (usar inglés siempre)
+      commons/                // Carpeta con componentes comunes para dos vistas u otros componentes
+      <ViewComponent>/        // Cada subcomponente repite la misma estructura que la vista padre
       <ViewComponent>/        // Cada subcomponente repite la misma estructura que la vista padre
     context/                  // Contexto local para compartir estado profundo
     helpers/                  // Lógica sin estado reutilizable
@@ -29,6 +31,7 @@ screens/
 
 ## Carpetas opcionales
 - adapters/ → solo si hay que transformar datos de backend.  
+- commons/ -> solo si hay componentes comunes para otros componentes.
 - components/ → se omite en vistas de bajo nivel sin subcomponentes.  
 - context/ → solo si es necesario compartir estado a más de 2 niveles.  
 - helpers/ → si no hay lógica pura extraíble, no se crea.  
