@@ -33,15 +33,6 @@ git commit -m "feat: Add Users screen with header and list"
   Ejemplo: `[EXAMPLE-251] Add Users screen`
 - La descripción de la PR debe incluir un **resumen claro** de lo realizado.
 
-Ejemplo:
-```
-### Summary
-- Created Users screen
-- Added UsersHeader and UsersBody components
-- Integrated with GrowthBook flags
-- Implemented initial unit tests with RTL
-```
-
 ---
 
 ## 4) Checklist antes de abrir una PR
