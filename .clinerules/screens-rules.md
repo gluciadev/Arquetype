@@ -23,7 +23,7 @@ screens/
     types.ts                  // Tipado asociado a la vista
     <ViewName>.doc.md         // Documentación funcional y técnica
     <ViewName>.module.css     // Estilos con CSS Modules
-    test
+    test/
       <ViewName>Mock.ts       // Mocks asociados al testing
       <ViewName>.test.tsx     // Tests unitarios (solo del propio componente)
     <ViewName>.tsx            // Entrada principal de la vista
